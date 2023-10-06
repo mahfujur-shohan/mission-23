@@ -4,15 +4,20 @@ body {
 h2 {
     font-size: 40px;
 }
+h3 {
+    font-size: 30px;
+}
+#my-mission {
+    text-align: center;
+}
 .top-banner {
     display: flex;
+    margin-top: 30px;
 }
 .half-width {
     width: 34%;
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 .half-width img {
     height: 85%;
@@ -22,8 +27,8 @@ h2 {
     text-decoration: none;
     background-color: tomato;
     color: white;
-    padding: 10px 40px;
-    border-radius: 5px;
+    padding: 10px 30px;
+    border-radius: 4px;
 }
 .text-orange {
     color: orange;
@@ -33,4 +38,58 @@ h2 {
 }
 #focused-mission {
     margin: 0px 0px 0px 12px;
+}
+.mission-section {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 60px;
+}
+.mission-box {
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.mission-box img {
+    width: 100px;
+}
+#mission {
+    width: 33%;
+    margin-right: 20px;
+    background-color: azure;
+}
+#vision {
+    width: 33%;
+    margin-right: 20px;
+    background-color: #FFEEF2;
+}
+#goal {
+    width: 33%;
+    background-color: #F5F5DC;
+}
+.documentation-section {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 80px;
+}
+.documentation-section img {
+    width: 350px;
+}
+#right-documentation {
+    margin-left: 50px;
+}
+#left-documentation {
+    margin-right: 50px;
+}
+.footer-section {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+#color-tomato {
+    color: tomato;
+}
+.footer-section div {
+    color: white;
 }
