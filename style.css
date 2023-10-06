@@ -1,18 +1,21 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-h1 {
-    font-size: 50px;
+h2 {
+    font-size: 40px;
 }
 .top-banner {
     display: flex;
 }
 .half-width {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 34%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .half-width img {
+    height: 85%;
     width: 100%;
 }
 .link-button {
@@ -21,4 +24,13 @@ h1 {
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
+}
+.text-orange {
+    color: orange;
+}
+#vertical-line {
+    border-left: 4px solid tomato;
+}
+#focused-mission {
+    margin: 0px 0px 0px 12px;
 }
