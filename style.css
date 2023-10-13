@@ -20,9 +20,11 @@ h3 {
     margin-right: 8%;
 }
 .half-width img {
-    height: 85%;
+    margin-top: 40px;
+    height: 90%;
     width: 100%;
 }
+
 .link-button {
     text-decoration: none;
     background-color: tomato;
@@ -89,6 +91,22 @@ h3 {
 }
 #color-tomato {
     color: tomato;
+}
+#rounded-img {
+    border-radius: 30px;
+}
+.contact-section {
+    display: flex;
+    margin-top: 30px;
+}
+.divided-contact {
+    width: 34%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.divided-contact img {
+    width: 100%;
+    margin-bottom: 70px;
 }
 .footer-section div {
     color: white;
